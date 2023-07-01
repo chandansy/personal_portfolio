@@ -68,6 +68,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --light-blue: hsl(210, 95%, 30%);
 
   /**
    * typography
@@ -444,7 +445,7 @@ main {
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover { color: var(--light-blue); }
 
 
 
@@ -792,6 +793,13 @@ main {
 .timeline-item-title {
   font-size: var(--fs-6);
   line-height: 1.3;
+  margin-bottom: 7px;
+}
+
+.timeline-sub-item-title {
+  font-size: var(--fs-7);
+  line-height: 1.1;
+  opacity: 70%;
   margin-bottom: 7px;
 }
 
